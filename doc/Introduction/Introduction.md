@@ -26,4 +26,4 @@ The ApplicationPattern, which is required for assuring smooth integration into a
   * administrating the application, e.g. in case of updates
 * and an OaM layer that makes the internal resources of the application available for configuration.
 
-[Up to Main](../Main.md) - - - [Ahead to Preparing->](../PreparingSpecifying/PreparingSpecifying.md)
+[Up to Main](../Main.md) - - - [Ahead to Preparing->](../PreparingSpecifying/PreparingSpecifying.md) 
