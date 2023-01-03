@@ -1,4 +1,4 @@
-# ApplicationPattern Specification
+# OfficialApplicationName Specification
 
 ### ServiceList
 - [ApplicationPattern+services](./ApplicationPattern+services.yaml)
