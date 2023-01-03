@@ -1,4 +1,4 @@
-# ApplicationPattern Testing
+# OfficialApplicationName Testing
 
 ### Test Cases (Postman Export)
 - [ApplicationPattern+testcases](./ApplicationPattern+testcases.json)
