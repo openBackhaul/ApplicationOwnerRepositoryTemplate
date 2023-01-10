@@ -1,20 +1,20 @@
 # OfficialApplicationName Specification
 
 ### ServiceList
-- [ApplicationPattern+services](./ApplicationPattern+services.yaml)
+- [OfficialApplicationName+services](./OfficialApplicationName+services.yaml)
 
 ### ProfileList and ProfileInstanceList
-- [ApplicationPattern+profiles](./ApplicationPattern+profiles.yaml)
-- [ApplicationPattern+profileInstances](./ApplicationPattern+profileInstances.yaml)
+- [OfficialApplicationName+profiles](./OfficialApplicationName+profiles.yaml)
+- [OfficialApplicationName+profileInstances](./OfficialApplicationName+profileInstances.yaml)
 
 ### ForwardingList
-- [ApplicationPattern+forwardings](./ApplicationPattern+forwardings.yaml)
+- [OfficialApplicationName+forwardings](./OfficialApplicationName+forwardings.yaml)
 
 ### Open API specification (Swagger)
-- [ApplicationPattern](./ApplicationPattern.yaml)
+- [OfficialApplicationName](./OfficialApplicationName.yaml)
 
 ### CONFIGfile (JSON)
-- [ApplicationPattern+config](./ApplicationPattern+config.json)
+- [OfficialApplicationName+config](./OfficialApplicationName+config.json)
 
 ### Comments
 ./.
