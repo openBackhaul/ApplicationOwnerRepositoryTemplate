@@ -1,4 +1,5 @@
 name: Linter
+# yamllint disable-line rule:truthy
 on:
   pull_request:
     branches: [develop]
@@ -12,13 +13,3 @@ jobs:
         uses: ibiqlik/action-yamllint@v3
         with:
           format: github
-          config_data: |
-            extends: default
-            rules:
-              line-length: disable
-              document-start: disable
-              truthy:
-                ignore: |
-                  .github/
-            ignore: |
-              server/
