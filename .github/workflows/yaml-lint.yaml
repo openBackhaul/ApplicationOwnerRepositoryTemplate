@@ -1,11 +1,9 @@
-name: Linter
-# yamllint disable-line rule:truthy
+name: Yaml Lint
 on:
   pull_request:
     branches: [develop]
 jobs:
-  yaml:
-    name: YAML
+  lintAllTheThings:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -13,3 +11,8 @@ jobs:
         uses: ibiqlik/action-yamllint@v3
         with:
           format: github
+          config_data: |
+            extends: default
+            rules:
+              line-length: disable
+              document-start: disable
